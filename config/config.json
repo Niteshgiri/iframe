@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "i-frame-panel-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/iFramePanel/IFramePanelWebPart.js",
+          "manifest": "./src/webparts/iFramePanel/IFramePanelWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "IFramePanelWebPartStrings": "lib/webparts/iFramePanel/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "i-frame-panel-client-side-solution",
+    "id": "5ef10094-9910-4df4-91de-3c09b3d64785",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "i-frame-panel description"
+      },
+      "longDescription": {
+        "default": "i-frame-panel description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "i-frame-panel Feature",
+        "description": "The feature that activates elements of the i-frame-panel solution.",
+        "id": "1703d92b-2165-495c-9d27-0ff27a584417",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/i-frame-panel.sppkg"
+  }
+}
